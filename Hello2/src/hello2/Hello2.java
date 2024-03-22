@@ -27,7 +27,7 @@ public class Hello2 extends Application {
     //called by sys
     public void init(){
         System.out.println("init called");
-//        Stage s = new Stage();
+//        Stage s = new Stage(); // can not creat a stage here
 //        s.show();
     }
     

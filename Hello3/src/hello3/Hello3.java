@@ -60,6 +60,39 @@ public class Hello3 extends Application {
                 resultLabel.setText(result+"");
             }
          });
+         sub.setOnAction(new EventHandler(){
+          
+
+            @Override
+            public void handle(Event event) {
+                int firstNumber = Integer.parseInt(firstNumberField.getText());
+                int secondNumber = Integer.parseInt(secondNumberField.getText());
+                int result = firstNumber-secondNumber;
+                resultLabel.setText(result+"");
+            }
+         });
+         mul.setOnAction(new EventHandler(){
+          
+
+            @Override
+            public void handle(Event event) {
+                int firstNumber = Integer.parseInt(firstNumberField.getText());
+                int secondNumber = Integer.parseInt(secondNumberField.getText());
+                int result = firstNumber*secondNumber;
+                resultLabel.setText(result+"");
+            }
+         });
+         div.setOnAction(new EventHandler(){
+          
+
+            @Override
+            public void handle(Event event) {
+                int firstNumber = Integer.parseInt(firstNumberField.getText());
+                int secondNumber = Integer.parseInt(secondNumberField.getText());
+                int result = firstNumber/secondNumber;
+                resultLabel.setText(result+"");
+            }
+         });
          buttonsBox.getChildren().addAll(
                 add ,
                 sub ,

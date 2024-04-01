@@ -26,7 +26,7 @@ public class LayoutsClass extends Application {
     public void start(Stage primaryStage) {
         
         GridPane root = new GridPane();//col row
-        root.setAlignment(Pos.CENTER);
+        root.setAlignment(Pos.CENTER);//alignment
         Button btn1 = new Button("Button 1");
         Button btn2 = new Button("Button 2");
         Button btn3 = new Button("Button 3");

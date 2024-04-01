@@ -36,7 +36,7 @@ public class LayoutsClass extends Application {
         Button btn7 = new Button("Button 7");
         Button btn8 = new Button("Button 8");
         Button btn9 = new Button("Button 9");
-        
+        //add buttons to the GridPane
         root.add(btn1 , 0 , 0);
         root.add(btn2 , 0 , 1);
         root.add(btn3 , 0 , 2);
@@ -57,11 +57,13 @@ public class LayoutsClass extends Application {
 
         }
         
-        
+         //row and col constraints
 //       root.getRowConstraints().add(new RowConstraints(80));//for the first row
 //       root.getRowConstraints().add(new RowConstraints(50));//for the second row
 //       root.getColumnConstraints().add(new ColumnConstraints(120));//for the first col
-       
+
+         //set gap between things
+
 //        root.setHgap(15);
 //        root.setVgap(25);
         

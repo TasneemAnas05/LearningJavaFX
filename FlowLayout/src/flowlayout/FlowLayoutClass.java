@@ -4,7 +4,7 @@
  */
 package flowlayout;
 
-import java.awt.Insets;
+import javafx.geometry.Insets;
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.event.Event;

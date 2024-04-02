@@ -23,7 +23,7 @@ import javafx.stage.Stage;
  * @author lab1g11
  */
 public class FlowLayoutClass extends Application {
-    Scene scene2 ;//global for all class
+    Scene scene2 ;//global for  class
     @Override
     public void start(Stage primaryStage) {
         Button btn1 = new Button("Button 1");

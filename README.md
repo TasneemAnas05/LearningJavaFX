@@ -4,4 +4,6 @@ Controlls (Nodes) <br>
 Panes<br>
 Scenes<br>
 Events<br>
+Alerts<br>
+Dialog<br>
 DB relation<br>

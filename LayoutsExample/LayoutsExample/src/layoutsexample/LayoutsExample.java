@@ -31,7 +31,7 @@ public class LayoutsExample extends Application {
         VBox vbox = addVBox();
         root.setLeft(vbox);
         
-        FlowPane fPane = addFlowPane();
+        FlowPane fPane = addFlowPane();//responsive(based on the avaliable area)
         root.setCenter(fPane);
         
         GridPane grid = addGridPane();
@@ -144,7 +144,7 @@ public class LayoutsExample extends Application {
         
         grid.add(btnSum, 0, 4);
         grid.add(btnAvg, 1, 4);
-        
+        //visit them as an array
         TextField [] txtNumbers = {txt1,txt2,txt3,txt4,txt5,txt6,txt7,txt8};
     
 
@@ -153,6 +153,7 @@ public class LayoutsExample extends Application {
                 
                 double sum = 0;
                 for (int i = 0; i < txtNumbers.length; i++) {
+                    //parsing is really important
                     sum += Double.parseDouble(txtNumbers[i].getText());
                 }
                 JOptionPane.showMessageDialog(null, "Sum =" + sum);
